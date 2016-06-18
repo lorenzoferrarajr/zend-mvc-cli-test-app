@@ -17,4 +17,9 @@ return [
             ],
         ],
     ],
+    'controllers' => [
+        'invokables' => [
+            Consumer\Controller\ConsumerController::class => Consumer\Controller\ConsumerController::class
+        ]
+    ]
 ];
